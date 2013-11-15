@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SELECT ONE</string>
+	<string>Dr. Keith Shealy, M.D</string>
+	<string>Dr. Steve M. Culp, M.D.</string>
+	<string>Dr. Frank Sharp, M.D.</string>
+	<string>Linda Daily, D.O.</string>
+	<string>Dr. Lynne Greene, M.D.</string>
+	<string>Dr. Paul Lingoes, M.D.</string>
+	<string>David Robison, F.N.P.</string>
+	<string>Bill Everall, F.N.P.</string>
+	<string>No Preference</string>
+</array>
+</plist>

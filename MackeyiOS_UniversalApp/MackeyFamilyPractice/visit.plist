@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SELECT ONE</string>
+	<string>Recheck</string>
+	<string>Physical Exam - PreEmployment</string>
+	<string>Physical Exam - Part II</string>
+	<string>Physical Exam - Sports Physical</string>
+	<string>Physical Exam - DOT Physical</string>
+	<string>Physical Exam - Pap Smear</string>
+	<string>Physical Exam - Other</string>
+	<string>Well Child Exam - Infant - up to 1 year</string>
+	<string>Well Child Exam - Early Childhood - 1 to 11yrs.</string>
+	<string>Well Child Exam - Late Childhood - 12 to 17yrs.</string>
+	<string>Well Child Exam - Other</string>
+	<string>Lab - Cholesterol</string>
+	<string>Lab - Liver Functions (LFT)</string>
+	<string>Lab - Part I</string>
+	<string>Lab - Thyroid Panel</string>
+	<string>Lab - CBC</string>
+	<string>Lab - Blood Sugar</string>
+	<string>Lab - Other</string>
+	<string>Injections - Tetramune</string>
+	<string>Injections - Tetanus</string>
+	<string>Injections - MMR</string>
+	<string>Injections - Polio Vaccine</string>
+	<string>Injections - Flu</string>
+	<string>Injections - Hepatitis B</string>
+	<string>Injections - Pneumovax</string>
+	<string>Injections - DTAP</string>
+	<string>Injections - HIB</string>
+	<string>Injections - B12</string>
+	<string>Injections - Allergy</string>
+	<string>Injections - Other</string>
+	<string>Special Procedures - Holter Monitor</string>
+	<string>Special Procedures - Stress Test</string>
+	<string>Special Procedures - PFT</string>
+	<string>Special Procedures - Breatholyzer</string>
+	<string>Special Procedures - Other</string>
+	<string>Other - Please use Additional Notes box below</string>
+</array>
+</plist>

@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0AE514180FC5D500B03F68 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AE513180FC5D500B03F68 /* Reachability.m */; };
+		1A0AE516180FC76300B03F68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0AE515180FC76300B03F68 /* SystemConfiguration.framework */; };
+		1A392D7B181665E7003AC4BA /* AppointmentCurliPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A392D7A181665E7003AC4BA /* AppointmentCurliPhoneViewController.m */; };
+		1AE5271117FDA0D300EAC780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5271017FDA0D300EAC780 /* Images.xcassets */; };
+		26259D9114743A8C00C0C4E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259D9014743A8C00C0C4E0 /* UIKit.framework */; };
+		26259D9314743A8C00C0C4E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259D9214743A8C00C0C4E0 /* Foundation.framework */; };
+		26259D9514743A8C00C0C4E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259D9414743A8C00C0C4E0 /* CoreGraphics.framework */; };
+		26259D9B14743A8C00C0C4E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26259D9914743A8C00C0C4E0 /* InfoPlist.strings */; };
+		26259D9D14743A8C00C0C4E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26259D9C14743A8C00C0C4E0 /* main.m */; };
+		26259DA114743A8C00C0C4E0 /* MackeyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26259DA014743A8C00C0C4E0 /* MackeyAppDelegate.m */; };
+		26259DA414743A8C00C0C4E0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26259DA214743A8C00C0C4E0 /* MainStoryboard_iPhone.storyboard */; };
+		26259DA714743A8C00C0C4E0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26259DA514743A8C00C0C4E0 /* MainStoryboard_iPad.storyboard */; };
+		26259DAA14743A8C00C0C4E0 /* MackeyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26259DA914743A8C00C0C4E0 /* MackeyFirstViewController.m */; };
+		26259DB114743A8C00C0C4E0 /* MackeySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26259DB014743A8C00C0C4E0 /* MackeySecondViewController.m */; };
+		26259DBD14743A8C00C0C4E0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259DBC14743A8C00C0C4E0 /* SenTestingKit.framework */; };
+		26259DBE14743A8C00C0C4E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259D9014743A8C00C0C4E0 /* UIKit.framework */; };
+		26259DBF14743A8C00C0C4E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26259D9214743A8C00C0C4E0 /* Foundation.framework */; };
+		26259DC714743A8C00C0C4E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26259DC514743A8C00C0C4E0 /* InfoPlist.strings */; };
+		26259DCA14743A8C00C0C4E0 /* MackeyFamilyPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26259DC914743A8C00C0C4E0 /* MackeyFamilyPracticeTests.m */; };
+		266783FC1486B7A20050EE62 /* MackeyLocationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266783FB1486B7A10050EE62 /* MackeyLocationsController.m */; };
+		268046CA14C7567300E8EA8C /* MackeyWebViewApptsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268046C914C7567300E8EA8C /* MackeyWebViewApptsController.m */; };
+		26A403DD1487FF1100D81EC3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A403DC1487FF1100D81EC3 /* MapKit.framework */; };
+		26BC29F21475925E000773A9 /* MackeyThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BC29F11475925E000773A9 /* MackeyThirdViewController.m */; };
+		7D096C0A17FAEB1500350CB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D096C0917FAEB1500350CB2 /* QuartzCore.framework */; };
+		7D096C0C17FAEB6B00350CB2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D096C0B17FAEB6B00350CB2 /* Accelerate.framework */; };
+		7D1148FD18178D8D002EDCD6 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7D1148FB18178D8D002EDCD6 /* iTunesArtwork */; };
+		7D1148FE18178D8D002EDCD6 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 7D1148FC18178D8D002EDCD6 /* iTunesArtwork@2x */; };
+		7D295A6A17F95BAC0078E30A /* LabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D295A6917F95BAC0078E30A /* LabsViewController.m */; };
+		7D295A7017F964D40078E30A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D295A6F17F964D40078E30A /* MBProgressHUD.m */; };
+		7D295A8317F9A4300078E30A /* SocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D295A8217F9A4300078E30A /* SocialMediaViewController.m */; };
+		7D665ECB182A44EB0000D4E8 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D665ECA182A44EB0000D4E8 /* tabBarViewController.m */; };
+		7DBF7E0E1810156C007BB4B5 /* LabsForIphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF7E0D1810156C007BB4B5 /* LabsForIphoneViewController.m */; };
+		849F7A5C1814E5F7006CE561 /* AppointmentCurlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F7A5B1814E5F7006CE561 /* AppointmentCurlViewController.m */; };
+		849F7A6418150568006CE561 /* provider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849F7A6318150568006CE561 /* provider.plist */; };
+		849F7A661815121F006CE561 /* visit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849F7A651815121F006CE561 /* visit.plist */; };
+		849F7A68181526A8006CE561 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849F7A67181526A8006CE561 /* MessageUI.framework */; };
+		849F7A6B181533B9006CE561 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F7A6A181533B9006CE561 /* AppointmentViewController.m */; };
+		849F7A6E181572CB006CE561 /* AppointmentiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F7A6D181572CB006CE561 /* AppointmentiPhoneViewController.m */; };
+		84DA81CA17FAE6E500B21A6F /* RNGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA81C917FAE6E500B21A6F /* RNGridMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26259DC014743A8C00C0C4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26259D8314743A8B00C0C4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26259D8B14743A8C00C0C4E0;
+			remoteInfo = MackeyFamilyPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0AE512180FC5D500B03F68 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = MENU/Reachability.h; sourceTree = "<group>"; };
+		1A0AE513180FC5D500B03F68 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = MENU/Reachability.m; sourceTree = "<group>"; };
+		1A0AE515180FC76300B03F68 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A392D79181665E7003AC4BA /* AppointmentCurliPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentCurliPhoneViewController.h; sourceTree = "<group>"; };
+		1A392D7A181665E7003AC4BA /* AppointmentCurliPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentCurliPhoneViewController.m; sourceTree = "<group>"; };
+		1AE5271017FDA0D300EAC780 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MackeyFamily/Images.xcassets; sourceTree = "<group>"; };
+		26259D8C14743A8C00C0C4E0 /* MackeyFamily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MackeyFamily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26259D9014743A8C00C0C4E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26259D9214743A8C00C0C4E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26259D9414743A8C00C0C4E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26259D9814743A8C00C0C4E0 /* MackeyFamilyPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MackeyFamilyPractice-Info.plist"; sourceTree = "<group>"; };
+		26259D9A14743A8C00C0C4E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26259D9C14743A8C00C0C4E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26259D9E14743A8C00C0C4E0 /* MackeyFamilyPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MackeyFamilyPractice-Prefix.pch"; sourceTree = "<group>"; };
+		26259D9F14743A8C00C0C4E0 /* MackeyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MackeyAppDelegate.h; sourceTree = "<group>"; };
+		26259DA014743A8C00C0C4E0 /* MackeyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MackeyAppDelegate.m; sourceTree = "<group>"; };
+		26259DA314743A8C00C0C4E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		26259DA614743A8C00C0C4E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		26259DA814743A8C00C0C4E0 /* MackeyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MackeyFirstViewController.h; path = MackeyFamilyPractice/MackeyFirstViewController.h; sourceTree = "<group>"; };
+		26259DA914743A8C00C0C4E0 /* MackeyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MackeyFirstViewController.m; path = MackeyFamilyPractice/MackeyFirstViewController.m; sourceTree = "<group>"; };
+		26259DAF14743A8C00C0C4E0 /* MackeySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MackeySecondViewController.h; path = MackeyFamilyPractice/MackeySecondViewController.h; sourceTree = "<group>"; };
+		26259DB014743A8C00C0C4E0 /* MackeySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MackeySecondViewController.m; path = MackeyFamilyPractice/MackeySecondViewController.m; sourceTree = "<group>"; };
+		26259DBB14743A8C00C0C4E0 /* MackeyFamilyPracticeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MackeyFamilyPracticeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26259DBC14743A8C00C0C4E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		26259DC414743A8C00C0C4E0 /* MackeyFamilyPracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MackeyFamilyPracticeTests-Info.plist"; sourceTree = "<group>"; };
+		26259DC614743A8C00C0C4E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26259DC814743A8C00C0C4E0 /* MackeyFamilyPracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MackeyFamilyPracticeTests.h; sourceTree = "<group>"; };
+		26259DC914743A8C00C0C4E0 /* MackeyFamilyPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MackeyFamilyPracticeTests.m; sourceTree = "<group>"; };
+		266783FA1486B7A10050EE62 /* MackeyLocationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MackeyLocationsController.h; sourceTree = "<group>"; };
+		266783FB1486B7A10050EE62 /* MackeyLocationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MackeyLocationsController.m; sourceTree = "<group>"; };
+		268046C814C7567300E8EA8C /* MackeyWebViewApptsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MackeyWebViewApptsController.h; path = MackeyFamilyPractice/MackeyWebViewApptsController.h; sourceTree = "<group>"; };
+		268046C914C7567300E8EA8C /* MackeyWebViewApptsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MackeyWebViewApptsController.m; path = MackeyFamilyPractice/MackeyWebViewApptsController.m; sourceTree = "<group>"; };
+		26A403DC1487FF1100D81EC3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		26BC29F01475925E000773A9 /* MackeyThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MackeyThirdViewController.h; path = MackeyFamilyPractice/MackeyThirdViewController.h; sourceTree = "<group>"; };
+		26BC29F11475925E000773A9 /* MackeyThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MackeyThirdViewController.m; path = MackeyFamilyPractice/MackeyThirdViewController.m; sourceTree = "<group>"; };
+		7D096C0917FAEB1500350CB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D096C0B17FAEB6B00350CB2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7D0CDDA4180E925100CC9DB2 /* MackeyFamily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MackeyFamily.entitlements; path = MackeyFamily/MackeyFamily.entitlements; sourceTree = "<group>"; };
+		7D1148FB18178D8D002EDCD6 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		7D1148FC18178D8D002EDCD6 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		7D295A6817F95BAC0078E30A /* LabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabsViewController.h; path = MackeyFamilyPractice/LabsViewController.h; sourceTree = "<group>"; };
+		7D295A6917F95BAC0078E30A /* LabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabsViewController.m; path = MackeyFamilyPractice/LabsViewController.m; sourceTree = "<group>"; };
+		7D295A6E17F964D40078E30A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7D295A6F17F964D40078E30A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7D295A8117F9A4300078E30A /* SocialMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialMediaViewController.h; path = MackeyFamilyPractice/SocialMediaViewController.h; sourceTree = "<group>"; };
+		7D295A8217F9A4300078E30A /* SocialMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialMediaViewController.m; path = MackeyFamilyPractice/SocialMediaViewController.m; sourceTree = "<group>"; };
+		7D665EC9182A44EB0000D4E8 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
+		7D665ECA182A44EB0000D4E8 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
+		7DBF7E0C1810156C007BB4B5 /* LabsForIphoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabsForIphoneViewController.h; sourceTree = "<group>"; };
+		7DBF7E0D1810156C007BB4B5 /* LabsForIphoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabsForIphoneViewController.m; sourceTree = "<group>"; };
+		849F7A5A1814E5F7006CE561 /* AppointmentCurlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentCurlViewController.h; sourceTree = "<group>"; };
+		849F7A5B1814E5F7006CE561 /* AppointmentCurlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentCurlViewController.m; sourceTree = "<group>"; };
+		849F7A6318150568006CE561 /* provider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provider.plist; sourceTree = "<group>"; };
+		849F7A651815121F006CE561 /* visit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = visit.plist; sourceTree = "<group>"; };
+		849F7A67181526A8006CE561 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		849F7A69181533B9006CE561 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		849F7A6A181533B9006CE561 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		849F7A6C181572CB006CE561 /* AppointmentiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentiPhoneViewController.h; sourceTree = "<group>"; };
+		849F7A6D181572CB006CE561 /* AppointmentiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentiPhoneViewController.m; sourceTree = "<group>"; };
+		84DA81C817FAE6E500B21A6F /* RNGridMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNGridMenu.h; path = MackeyFamilyPractice/MENU/RNGridMenu.h; sourceTree = "<group>"; };
+		84DA81C917FAE6E500B21A6F /* RNGridMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGridMenu.m; path = MackeyFamilyPractice/MENU/RNGridMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26259D8914743A8C00C0C4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849F7A68181526A8006CE561 /* MessageUI.framework in Frameworks */,
+				1A0AE516180FC76300B03F68 /* SystemConfiguration.framework in Frameworks */,
+				7D096C0C17FAEB6B00350CB2 /* Accelerate.framework in Frameworks */,
+				7D096C0A17FAEB1500350CB2 /* QuartzCore.framework in Frameworks */,
+				26A403DD1487FF1100D81EC3 /* MapKit.framework in Frameworks */,
+				26259D9114743A8C00C0C4E0 /* UIKit.framework in Frameworks */,
+				26259D9314743A8C00C0C4E0 /* Foundation.framework in Frameworks */,
+				26259D9514743A8C00C0C4E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26259DB714743A8C00C0C4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26259DBD14743A8C00C0C4E0 /* SenTestingKit.framework in Frameworks */,
+				26259DBE14743A8C00C0C4E0 /* UIKit.framework in Frameworks */,
+				26259DBF14743A8C00C0C4E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0AE50C180FC3AC00B03F68 /* ThirdPartyLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				7D19DCDE181120F300F60571 /* RNGridMenu */,
+				7D19DCDD181120CA00F60571 /* Reachability */,
+				7D295A6D17F964AE0078E30A /* ProgressHUD */,
+			);
+			name = ThirdPartyLibraries;
+			sourceTree = "<group>";
+		};
+		26259D8114743A8B00C0C4E0 = {
+			isa = PBXGroup;
+			children = (
+				7D0CDDA4180E925100CC9DB2 /* MackeyFamily.entitlements */,
+				1AE5271017FDA0D300EAC780 /* Images.xcassets */,
+				1A0AE50C180FC3AC00B03F68 /* ThirdPartyLibraries */,
+				7D295A7317F977480078E30A /* ViewControllers */,
+				26259D9614743A8C00C0C4E0 /* MackeyFamilyPractice */,
+				26259DC214743A8C00C0C4E0 /* MackeyFamilyPracticeTests */,
+				26259D9714743A8C00C0C4E0 /* Supporting Files */,
+				26259D8F14743A8C00C0C4E0 /* Frameworks */,
+				26259D8D14743A8C00C0C4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26259D8D14743A8C00C0C4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26259D8C14743A8C00C0C4E0 /* MackeyFamily.app */,
+				26259DBB14743A8C00C0C4E0 /* MackeyFamilyPracticeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26259D8F14743A8C00C0C4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849F7A67181526A8006CE561 /* MessageUI.framework */,
+				1A0AE515180FC76300B03F68 /* SystemConfiguration.framework */,
+				7D096C0B17FAEB6B00350CB2 /* Accelerate.framework */,
+				7D096C0917FAEB1500350CB2 /* QuartzCore.framework */,
+				26A403DC1487FF1100D81EC3 /* MapKit.framework */,
+				26259D9014743A8C00C0C4E0 /* UIKit.framework */,
+				26259D9214743A8C00C0C4E0 /* Foundation.framework */,
+				26259D9414743A8C00C0C4E0 /* CoreGraphics.framework */,
+				26259DBC14743A8C00C0C4E0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26259D9614743A8C00C0C4E0 /* MackeyFamilyPractice */ = {
+			isa = PBXGroup;
+			children = (
+				26259D9F14743A8C00C0C4E0 /* MackeyAppDelegate.h */,
+				26259DA014743A8C00C0C4E0 /* MackeyAppDelegate.m */,
+				26259DA514743A8C00C0C4E0 /* MainStoryboard_iPad.storyboard */,
+				26259DA214743A8C00C0C4E0 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = MackeyFamilyPractice;
+			sourceTree = "<group>";
+		};
+		26259D9714743A8C00C0C4E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1148FB18178D8D002EDCD6 /* iTunesArtwork */,
+				7D1148FC18178D8D002EDCD6 /* iTunesArtwork@2x */,
+				849F7A651815121F006CE561 /* visit.plist */,
+				26259D9814743A8C00C0C4E0 /* MackeyFamilyPractice-Info.plist */,
+				26259D9914743A8C00C0C4E0 /* InfoPlist.strings */,
+				26259D9C14743A8C00C0C4E0 /* main.m */,
+				26259D9E14743A8C00C0C4E0 /* MackeyFamilyPractice-Prefix.pch */,
+				849F7A6318150568006CE561 /* provider.plist */,
+			);
+			name = "Supporting Files";
+			path = MackeyFamilyPractice;
+			sourceTree = "<group>";
+		};
+		26259DC214743A8C00C0C4E0 /* MackeyFamilyPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				26259DC814743A8C00C0C4E0 /* MackeyFamilyPracticeTests.h */,
+				26259DC914743A8C00C0C4E0 /* MackeyFamilyPracticeTests.m */,
+				26259DC314743A8C00C0C4E0 /* Supporting Files */,
+			);
+			path = MackeyFamilyPracticeTests;
+			sourceTree = "<group>";
+		};
+		26259DC314743A8C00C0C4E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26259DC414743A8C00C0C4E0 /* MackeyFamilyPracticeTests-Info.plist */,
+				26259DC514743A8C00C0C4E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D19DCDD181120CA00F60571 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1A0AE512180FC5D500B03F68 /* Reachability.h */,
+				1A0AE513180FC5D500B03F68 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = MackeyFamilyPractice;
+			sourceTree = "<group>";
+		};
+		7D19DCDE181120F300F60571 /* RNGridMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84DA81C817FAE6E500B21A6F /* RNGridMenu.h */,
+				84DA81C917FAE6E500B21A6F /* RNGridMenu.m */,
+			);
+			name = RNGridMenu;
+			sourceTree = "<group>";
+		};
+		7D295A6D17F964AE0078E30A /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7D295A6E17F964D40078E30A /* MBProgressHUD.h */,
+				7D295A6F17F964D40078E30A /* MBProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = MackeyFamilyPractice;
+			sourceTree = "<group>";
+		};
+		7D295A7317F977480078E30A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D665EC9182A44EB0000D4E8 /* tabBarViewController.h */,
+				7D665ECA182A44EB0000D4E8 /* tabBarViewController.m */,
+				26259DA814743A8C00C0C4E0 /* MackeyFirstViewController.h */,
+				26259DA914743A8C00C0C4E0 /* MackeyFirstViewController.m */,
+				266783FA1486B7A10050EE62 /* MackeyLocationsController.h */,
+				266783FB1486B7A10050EE62 /* MackeyLocationsController.m */,
+				26259DAF14743A8C00C0C4E0 /* MackeySecondViewController.h */,
+				26259DB014743A8C00C0C4E0 /* MackeySecondViewController.m */,
+				26BC29F01475925E000773A9 /* MackeyThirdViewController.h */,
+				26BC29F11475925E000773A9 /* MackeyThirdViewController.m */,
+				7D295A8117F9A4300078E30A /* SocialMediaViewController.h */,
+				7D295A8217F9A4300078E30A /* SocialMediaViewController.m */,
+				268046C814C7567300E8EA8C /* MackeyWebViewApptsController.h */,
+				268046C914C7567300E8EA8C /* MackeyWebViewApptsController.m */,
+				7D295A6817F95BAC0078E30A /* LabsViewController.h */,
+				7D295A6917F95BAC0078E30A /* LabsViewController.m */,
+				7DBF7E0C1810156C007BB4B5 /* LabsForIphoneViewController.h */,
+				7DBF7E0D1810156C007BB4B5 /* LabsForIphoneViewController.m */,
+				849F7A5A1814E5F7006CE561 /* AppointmentCurlViewController.h */,
+				849F7A5B1814E5F7006CE561 /* AppointmentCurlViewController.m */,
+				849F7A69181533B9006CE561 /* AppointmentViewController.h */,
+				849F7A6A181533B9006CE561 /* AppointmentViewController.m */,
+				849F7A6C181572CB006CE561 /* AppointmentiPhoneViewController.h */,
+				849F7A6D181572CB006CE561 /* AppointmentiPhoneViewController.m */,
+				1A392D79181665E7003AC4BA /* AppointmentCurliPhoneViewController.h */,
+				1A392D7A181665E7003AC4BA /* AppointmentCurliPhoneViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26259D8B14743A8C00C0C4E0 /* MackeyFamily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26259DCD14743A8C00C0C4E0 /* Build configuration list for PBXNativeTarget "MackeyFamily" */;
+			buildPhases = (
+				26259D8814743A8C00C0C4E0 /* Sources */,
+				26259D8914743A8C00C0C4E0 /* Frameworks */,
+				26259D8A14743A8C00C0C4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MackeyFamily;
+			productName = MackeyFamilyPractice;
+			productReference = 26259D8C14743A8C00C0C4E0 /* MackeyFamily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26259DBA14743A8C00C0C4E0 /* MackeyFamilyPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26259DD014743A8C00C0C4E0 /* Build configuration list for PBXNativeTarget "MackeyFamilyPracticeTests" */;
+			buildPhases = (
+				26259DB614743A8C00C0C4E0 /* Sources */,
+				26259DB714743A8C00C0C4E0 /* Frameworks */,
+				26259DB814743A8C00C0C4E0 /* Resources */,
+				26259DB914743A8C00C0C4E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26259DC114743A8C00C0C4E0 /* PBXTargetDependency */,
+			);
+			name = MackeyFamilyPracticeTests;
+			productName = MackeyFamilyPracticeTests;
+			productReference = 26259DBB14743A8C00C0C4E0 /* MackeyFamilyPracticeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26259D8314743A8B00C0C4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "ReliaLutions, LLC";
+				TargetAttributes = {
+					26259D8B14743A8C00C0C4E0 = {
+						DevelopmentTeam = YTN6BPF36F;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 26259D8614743A8B00C0C4E0 /* Build configuration list for PBXProject "MackeyFamilyPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26259D8114743A8B00C0C4E0;
+			productRefGroup = 26259D8D14743A8C00C0C4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26259D8B14743A8C00C0C4E0 /* MackeyFamily */,
+				26259DBA14743A8C00C0C4E0 /* MackeyFamilyPracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26259D8A14743A8C00C0C4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26259D9B14743A8C00C0C4E0 /* InfoPlist.strings in Resources */,
+				26259DA414743A8C00C0C4E0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7D1148FD18178D8D002EDCD6 /* iTunesArtwork in Resources */,
+				849F7A661815121F006CE561 /* visit.plist in Resources */,
+				7D1148FE18178D8D002EDCD6 /* iTunesArtwork@2x in Resources */,
+				26259DA714743A8C00C0C4E0 /* MainStoryboard_iPad.storyboard in Resources */,
+				849F7A6418150568006CE561 /* provider.plist in Resources */,
+				1AE5271117FDA0D300EAC780 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26259DB814743A8C00C0C4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26259DC714743A8C00C0C4E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26259DB914743A8C00C0C4E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26259D8814743A8C00C0C4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0AE514180FC5D500B03F68 /* Reachability.m in Sources */,
+				849F7A6E181572CB006CE561 /* AppointmentiPhoneViewController.m in Sources */,
+				7D665ECB182A44EB0000D4E8 /* tabBarViewController.m in Sources */,
+				7D295A8317F9A4300078E30A /* SocialMediaViewController.m in Sources */,
+				7D295A6A17F95BAC0078E30A /* LabsViewController.m in Sources */,
+				26259D9D14743A8C00C0C4E0 /* main.m in Sources */,
+				849F7A6B181533B9006CE561 /* AppointmentViewController.m in Sources */,
+				26259DA114743A8C00C0C4E0 /* MackeyAppDelegate.m in Sources */,
+				26259DAA14743A8C00C0C4E0 /* MackeyFirstViewController.m in Sources */,
+				7D295A7017F964D40078E30A /* MBProgressHUD.m in Sources */,
+				26259DB114743A8C00C0C4E0 /* MackeySecondViewController.m in Sources */,
+				7DBF7E0E1810156C007BB4B5 /* LabsForIphoneViewController.m in Sources */,
+				26BC29F21475925E000773A9 /* MackeyThirdViewController.m in Sources */,
+				266783FC1486B7A20050EE62 /* MackeyLocationsController.m in Sources */,
+				849F7A5C1814E5F7006CE561 /* AppointmentCurlViewController.m in Sources */,
+				1A392D7B181665E7003AC4BA /* AppointmentCurliPhoneViewController.m in Sources */,
+				268046CA14C7567300E8EA8C /* MackeyWebViewApptsController.m in Sources */,
+				84DA81CA17FAE6E500B21A6F /* RNGridMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26259DB614743A8C00C0C4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26259DCA14743A8C00C0C4E0 /* MackeyFamilyPracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26259DC114743A8C00C0C4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26259D8B14743A8C00C0C4E0 /* MackeyFamily */;
+			targetProxy = 26259DC014743A8C00C0C4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26259D9914743A8C00C0C4E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26259D9A14743A8C00C0C4E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26259DA214743A8C00C0C4E0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26259DA314743A8C00C0C4E0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		26259DA514743A8C00C0C4E0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26259DA614743A8C00C0C4E0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		26259DC514743A8C00C0C4E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26259DC614743A8C00C0C4E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2602683C14C0B80C00B279D8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		2602683D14C0B80C00B279D8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MackeyFamily/MackeyFamily.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPractice/MackeyFamilyPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		2602683E14C0B80C00B279D8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MackeyFamilyPractice.app/MackeyFamilyPractice";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPracticeTests/MackeyFamilyPracticeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		26259DCB14743A8C00C0C4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26259DCC14743A8C00C0C4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26259DCE14743A8C00C0C4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MackeyFamily/MackeyFamily.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPractice/MackeyFamilyPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26259DCF14743A8C00C0C4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MackeyFamily/MackeyFamily.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPractice/MackeyFamilyPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26259DD114743A8C00C0C4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MackeyFamilyPractice.app/MackeyFamilyPractice";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPracticeTests/MackeyFamilyPracticeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		26259DD214743A8C00C0C4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MackeyFamilyPractice.app/MackeyFamilyPractice";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ReliaLutions, LLC (YTN6BPF36F)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MackeyFamilyPractice/MackeyFamilyPractice-Prefix.pch";
+				INFOPLIST_FILE = "MackeyFamilyPracticeTests/MackeyFamilyPracticeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38FABB48-D585-46D4-8AED-67FD3C087ED9";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26259D8614743A8B00C0C4E0 /* Build configuration list for PBXProject "MackeyFamilyPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26259DCB14743A8C00C0C4E0 /* Debug */,
+				26259DCC14743A8C00C0C4E0 /* Release */,
+				2602683C14C0B80C00B279D8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		26259DCD14743A8C00C0C4E0 /* Build configuration list for PBXNativeTarget "MackeyFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26259DCE14743A8C00C0C4E0 /* Debug */,
+				26259DCF14743A8C00C0C4E0 /* Release */,
+				2602683D14C0B80C00B279D8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		26259DD014743A8C00C0C4E0 /* Build configuration list for PBXNativeTarget "MackeyFamilyPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26259DD114743A8C00C0C4E0 /* Debug */,
+				26259DD214743A8C00C0C4E0 /* Release */,
+				2602683E14C0B80C00B279D8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26259D8314743A8B00C0C4E0 /* Project object */;
+}
